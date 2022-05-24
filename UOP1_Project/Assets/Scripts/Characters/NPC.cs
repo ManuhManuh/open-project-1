@@ -24,5 +24,7 @@ public class NPC : MonoBehaviour
 		yield return new WaitForSeconds(wait_time);
 		npcState = NPCState.Walk;
 	}
+
+	// Somewhere in here is where I would put the code for looking at the player when in range and line of sight
 }
 
